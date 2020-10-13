@@ -1,3 +1,6 @@
+headers.append('Access-Control-Allow-Origin', 'https://manvisekhri08.github.io/');
+headers.append('Access-Control-Allow-Credentials', 'true');
+
 const PatientForm = document.querySelector('form')
 const search = document.querySelector("input")
 const messageOne = document.querySelector("#message-1")
